@@ -118,3 +118,27 @@ pick 7b36971 something to move before patch B
 - Após os commits, o Git informa o intervalo de commits com o qual estamos trabalhando (41a72e6..7b36971).
 
 Por fim, o Git fornece alguma ajuda informando a você os comandos que estão disponíveis ao fazer rebase dos commits.
+
+
+# Git squash
+## Funcionamento
+O Squash é utilizado para combinar vários commits em um único commit. 
+
+Ele é útil quando você deseja simplificar o histórico de um branch, agrupando várias alterações relacionadas em um único commit coeso - o que faz com que seu histórico fique mais legível.
+
+## Sintaxe
+A sintaxe básica para realizar o "squash" é a seguinte:
+
+`git rebase -i <commit-anterior-que-deseja-squash>
+`
+
+Ao executar esse comando, um editor de texto será aberto com uma lista de commits que serão editados. Você pode escolher qual commit deseja combinar com o commit anterior a ele.
+
+Para combinar commits, você precisa substituir "pick" por "squash" (ou "s" para abreviar) nos commits que deseja squashar.
+
+## Aplicação
+- É geralmente útil quando você está trabalhando em uma *feature branch* e deseja simplificar o histórico antes de mesclá-lo ao *main branch*.
+
+- Ajuda a manter um histórico de commits limpo e organizado, com mais clareza nas alterações implementadas.
+
+- Pode ser usado para agrupar commits relacionados a uma única correção ou adição de recurso, facilitando a revisão de código e a compreensão do trabalho realizado.
