@@ -18,4 +18,4 @@ Para utilizar precisa:
 
 
 ## Aplicação do comando
-Usado para aplicar alterações específicas de commits em um branch diferente. É útil para corrigir bugs, incorporar funcionalidades específicas, evitar mesclagens desnecessárias e reorganizar commits. 
+Usado para aplicar alterações específicas de commits em um branch diferente. É útil para corrigir bugs, incorporar funcionalidades específicas, evitar mesclagens desnecessárias e reorganizar commits.
