@@ -1,2 +1,6 @@
-# task01-grupo01
-Repositório para a realização da primeira atividade do Vem Ser, onde os membros do grupo deverão explicar o funcionamento de alguns comandos do git.
+# `git squash`
+
+## Funcionamento
+O Squash é utilizado para combinar vários commits em um único commit. 
+
+Ele é útil quando você deseja simplificar o histórico de um branch, agrupando várias alterações relacionadas em um único commit coeso - o que faz com que seu histórico fique mais legível. O squash é especialmente útil antes de enviar um pull request ou mesclar um ramo em outro ramo principal.
